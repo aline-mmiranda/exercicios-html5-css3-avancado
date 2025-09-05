@@ -1,0 +1,69 @@
+html {
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    background-color: var(--background-padrao);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 310px;
+    height: 330px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil img {
+    width: 96px;
+}
+
+span.age {
+    font-weight: 700;
+    color: var(--cor-padrao);
+}
+
+hr {
+    width: 100%;
+}
+
+.info-social {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.info-social li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil p,
+li.number {
+    font-weight: 700;
+}
+
+span.city,
+span.number-type {
+    color: var(--cor-padrao);
+    font-weight: 400;
+}

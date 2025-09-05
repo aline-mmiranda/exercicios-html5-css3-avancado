@@ -1,0 +1,51 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    background-color: var(--cor-do-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: var(--cor-do-card);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    max-width: 540px;
+    max-height: 340px;
+}
+
+h2.conselho-number {
+    color: var(--cor-do-botao-do-card);
+    font-size: 11px;
+    letter-spacing: 3.3px;
+    margin-top: 40px;
+}
+
+p.conselho {
+    color: var(--cor-do-texto);
+    padding: 0 5px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--cor-do-botao-do-card);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(50%);
+}
+
+.btn:hover {
+    background-color: var(--cor-do-texto);
+}
+
+.btn img {
+transform: translateY(5%);
+}

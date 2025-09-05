@@ -1,0 +1,5 @@
+:root {
+    --cor-do-texto: hsla(0, 0%, 0%, 1);
+    --cor-do-texto-hover:hsla(0, 0%, 100%, 1); 
+    --cor-do-btn: hsla(108, 52%, 51%, 1);
+}

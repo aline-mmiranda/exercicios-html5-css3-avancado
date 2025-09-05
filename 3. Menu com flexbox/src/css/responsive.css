@@ -1,0 +1,30 @@
+@media (max-width: 736px) {
+    nav {
+        flex-direction: column;
+        margin: 50px 70px;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .links {
+        flex-direction: column;
+        margin-top: 85px;
+    }
+
+    .links li {
+        margin: 15px 0;
+    }
+
+    .links li a:not(.btn a) {
+        padding: 15px 40px;
+        font-size: 40px;
+    }
+
+    .btn a {
+        padding: 15px 25px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}

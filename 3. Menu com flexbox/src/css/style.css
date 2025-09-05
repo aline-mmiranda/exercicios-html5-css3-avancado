@@ -1,0 +1,53 @@
+header {
+    font-family: "Public Sans", sans-serif;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 45px 0 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.logo h1 {
+    color: var(--cor-do-texto);
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.links li a:not(.btn a) {
+    padding: 10px 5px;
+    font-weight: 400;
+    color: var(--cor-do-texto);
+}
+
+.links li a:hover:not(.btn a) {
+    color: var(--cor-do-texto-hover);
+    background-color: var(--cor-do-btn);
+}
+
+.btn a {
+    padding: 10px 20px;
+    color: var(--cor-do-texto-hover);
+    background-color: var(--cor-do-btn);
+    border-radius: 10px;
+    font-weight: 300;
+}
