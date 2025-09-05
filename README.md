@@ -67,7 +67,7 @@ Cada projeto é um mini-desafio para explorar **layout, design e interatividade*
 
 ## 🌐 Acesse os projetos online
 
-🔗 [Clique aqui para visualizar no GitHub Pages](https://seu-link-genérico-aqui)
+🔗 [Clique aqui para visualizar no GitHub Pages](https://aline-mmiranda.github.io/exercicios-html5-css3-avancado/)
 
 
 
